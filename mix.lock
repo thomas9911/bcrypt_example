@@ -1,0 +1,5 @@
+%{
+  "bcrypt_rust": {:git, "https://github.com/thomas9911/bcrypt-rust.git", "a73f2c2e6f93f6b9889f01cf78d2dacd29ffdb8e", []},
+  "castore": {:hex, :castore, "1.0.1", "240b9edb4e9e94f8f56ab39d8d2d0a57f49e46c56aced8f873892df8ff64ff5a", [:mix], [], "hexpm", "b4951de93c224d44fac71614beabd88b71932d0b1dea80d2f80fb9044e01bbb3"},
+  "rustler_precompiled": {:hex, :rustler_precompiled, "0.6.1", "160b545bce8bf9a3f1b436b2c10f53574036a0db628e40f393328cbbe593602f", [:mix], [{:castore, "~> 0.1 or ~> 1.0", [hex: :castore, repo: "hexpm", optional: false]}, {:rustler, "~> 0.23", [hex: :rustler, repo: "hexpm", optional: true]}], "hexpm", "0dd269fa261c4e3df290b12031c575fff07a542749f7b0e8b744d72d66c43600"},
+}
